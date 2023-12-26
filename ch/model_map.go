@@ -3,7 +3,7 @@ package ch
 import (
 	"reflect"
 
-	"github.com/uptrace/go-clickhouse/ch/chschema"
+	"github.com/isaphper/go-clickhouse/ch/chschema"
 )
 
 type mapModel struct {

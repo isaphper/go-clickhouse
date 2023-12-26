@@ -7,8 +7,8 @@ import (
 	"time"
 
 	"github.com/bradleyjkemp/cupaloy"
-	"github.com/uptrace/go-clickhouse/ch"
-	"github.com/uptrace/go-clickhouse/ch/chschema"
+	"github.com/isaphper/go-clickhouse/ch"
+	"github.com/isaphper/go-clickhouse/ch/chschema"
 )
 
 func TestQuery(t *testing.T) {

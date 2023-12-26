@@ -4,7 +4,7 @@ import (
 	"time"
 	"reflect"
 
-	"github.com/uptrace/go-clickhouse/ch/chproto"
+	"github.com/isaphper/go-clickhouse/ch/chproto"
 )
 
 {{- range . }}

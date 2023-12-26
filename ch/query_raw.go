@@ -4,7 +4,7 @@ import (
 	"context"
 	"database/sql"
 
-	"github.com/uptrace/go-clickhouse/ch/chschema"
+	"github.com/isaphper/go-clickhouse/ch/chschema"
 )
 
 type RawQuery struct {

@@ -8,7 +8,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/uptrace/go-clickhouse/ch/internal"
+	"github.com/isaphper/go-clickhouse/ch/internal"
 )
 
 var (
@@ -20,7 +20,7 @@ type AppenderFunc func(fmter Formatter, b []byte, v reflect.Value) []byte
 
 var valueAppenders []AppenderFunc
 
-//nolint
+// nolint
 func init() {
 	valueAppenders = []AppenderFunc{
 		reflect.Bool:          appendBoolValue,

@@ -9,10 +9,10 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/isaphper/go-clickhouse/ch"
+	"github.com/isaphper/go-clickhouse/chmigrate"
 	"github.com/stretchr/testify/require"
-	"github.com/uptrace/go-clickhouse/ch"
 	"github.com/uptrace/go-clickhouse/chdebug"
-	"github.com/uptrace/go-clickhouse/chmigrate"
 )
 
 func TestMigrate(t *testing.T) {

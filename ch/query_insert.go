@@ -5,8 +5,8 @@ import (
 	"database/sql"
 	"errors"
 
-	"github.com/uptrace/go-clickhouse/ch/chschema"
-	"github.com/uptrace/go-clickhouse/ch/internal"
+	"github.com/isaphper/go-clickhouse/ch/chschema"
+	"github.com/isaphper/go-clickhouse/ch/internal"
 )
 
 type InsertQuery struct {

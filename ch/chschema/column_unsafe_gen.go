@@ -7,7 +7,7 @@ import (
 	"reflect"
 	"unsafe"
 
-	"github.com/uptrace/go-clickhouse/ch/chproto"
+	"github.com/isaphper/go-clickhouse/ch/chproto"
 )
 
 func (c *Int8Column) ReadFrom(rd *chproto.Reader, numRow int) error {

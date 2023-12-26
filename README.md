@@ -1,7 +1,7 @@
 # ClickHouse client for Go 1.18+
 
-[![build workflow](https://github.com/uptrace/go-clickhouse/actions/workflows/build.yml/badge.svg)](https://github.com/uptrace/go-clickhouse/actions)
-[![PkgGoDev](https://pkg.go.dev/badge/github.com/uptrace/go-clickhouse/ch)](https://pkg.go.dev/github.com/go-clickhouse/ch)
+[![build workflow](https://github.com/isaphper/go-clickhouse/actions/workflows/build.yml/badge.svg)](https://github.com/isaphper/go-clickhouse/actions)
+[![PkgGoDev](https://pkg.go.dev/badge/github.com/isaphper/go-clickhouse/ch)](https://pkg.go.dev/github.com/go-clickhouse/ch)
 [![Documentation](https://img.shields.io/badge/ch-documentation-informational)](https://clickhouse.uptrace.dev/)
 [![Chat](https://discordapp.com/api/guilds/752070105847955518/widget.png)](https://discord.gg/rWtp5Aj)
 
@@ -27,10 +27,10 @@ Main features are:
 Resources:
 
 - [**Get started**](https://clickhouse.uptrace.dev/guide/getting-started.html)
-- [Examples](https://github.com/uptrace/go-clickhouse/tree/master/example)
-- [Discussions](https://github.com/uptrace/go-clickhouse/discussions)
+- [Examples](https://github.com/isaphper/go-clickhouse/tree/master/example)
+- [Discussions](https://github.com/isaphper/go-clickhouse/discussions)
 - [Chat](https://discord.gg/rWtp5Aj)
-- [Reference](https://pkg.go.dev/github.com/uptrace/go-clickhouse/ch)
+- [Reference](https://pkg.go.dev/github.com/isaphper/go-clickhouse/ch)
 - [Example app](https://github.com/uptrace/uptrace)
 
 ## Benchmark
@@ -52,7 +52,7 @@ Resources:
 ## Installation
 
 ```shell
-go get github.com/uptrace/go-clickhouse@latest
+go get github.com/isaphper/go-clickhouse@latest
 ```
 
 ## Example
@@ -67,7 +67,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/uptrace/go-clickhouse/ch"
+	"github.com/isaphper/go-clickhouse/ch"
 	"github.com/uptrace/go-clickhouse/chdebug"
 )
 

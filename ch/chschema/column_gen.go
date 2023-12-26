@@ -4,7 +4,7 @@ import (
 	"reflect"
 	"time"
 
-	"github.com/uptrace/go-clickhouse/ch/chproto"
+	"github.com/isaphper/go-clickhouse/ch/chproto"
 )
 
 type Int8Column struct {

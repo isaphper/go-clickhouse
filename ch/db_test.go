@@ -14,7 +14,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/uptrace/go-clickhouse/ch"
+	"github.com/isaphper/go-clickhouse/ch"
 	"github.com/uptrace/go-clickhouse/chdebug"
 )
 
@@ -463,7 +463,6 @@ func testORMSlice(t *testing.T, db *ch.DB) {
 		Kind:      "hello",
 		CreatedAt: time.Time{},
 	}, {
-
 		ID:        2,
 		Name:      "world",
 		Count:     84,

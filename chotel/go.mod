@@ -1,8 +1,8 @@
-module github.com/uptrace/go-clickhouse/chotel
+module github.com/isaphper/go-clickhouse/chotel
 
 go 1.18
 
-replace github.com/uptrace/go-clickhouse => ./..
+replace github.com/isaphper/go-clickhouse => ./..
 
 replace github.com/uptrace/go-clickhouse/chdebug => ../chdebug
 

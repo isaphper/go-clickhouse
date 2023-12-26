@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"strconv"
 
-	"github.com/uptrace/go-clickhouse/ch/internal"
+	"github.com/isaphper/go-clickhouse/ch/internal"
 )
 
 type Parser struct {

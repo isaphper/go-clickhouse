@@ -12,9 +12,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/uptrace/go-clickhouse/ch/bfloat16"
-	"github.com/uptrace/go-clickhouse/ch/chproto"
-	"github.com/uptrace/go-clickhouse/ch/internal"
+	"github.com/isaphper/go-clickhouse/ch/bfloat16"
+	"github.com/isaphper/go-clickhouse/ch/chproto"
+	"github.com/isaphper/go-clickhouse/ch/internal"
 
 	"golang.org/x/exp/constraints"
 )

@@ -6,7 +6,7 @@ import (
 	"reflect"
 	"time"
 
-	"github.com/uptrace/go-clickhouse/ch/chschema"
+	"github.com/isaphper/go-clickhouse/ch/chschema"
 )
 
 var errNilModel = errors.New("ch: Model(nil)")

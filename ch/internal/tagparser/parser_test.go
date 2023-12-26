@@ -5,7 +5,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/uptrace/go-clickhouse/ch/internal/tagparser"
+	"github.com/isaphper/go-clickhouse/ch/internal/tagparser"
 )
 
 var tagTests = []struct {
@@ -33,7 +33,7 @@ var tagTests = []struct {
 	{"foo:bar(hello, world)", "", map[string][]string{"foo": {"bar(hello, world)"}}},
 	{"foo:bar(hello(), world)", "", map[string][]string{"foo": {"bar(hello(), world)"}}},
 	{"type:geometry(POINT, 4326)", "", map[string][]string{"type": {"geometry(POINT, 4326)"}}},
-	{"foo:bar,foo:baz", "", map[string][]string{"foo": []string{"bar", "baz"}}},
+	{"foo:bar,foo:baz", "", map[string][]string{"foo": {"bar", "baz"}}},
 }
 
 func TestTagParser(t *testing.T) {
